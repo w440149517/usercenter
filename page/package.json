@@ -1,0 +1,10 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "前端页面",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli": "^4.5.11"
+  }
+}
