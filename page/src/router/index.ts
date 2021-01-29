@@ -22,7 +22,14 @@ const routes: Array<RouteRecordRaw> = [
     component: () => {
       return import("../views/Login.vue")
     }
-  }
+  },
+  {
+    path: "/regist",
+    name: "Regist",
+    component: () => {
+      return import("../views/Register.vue")
+    }
+  },
 ];
 
 const router = createRouter({
