@@ -1,0 +1,46 @@
+.login_div {
+    display: flex;
+    flex-direction: column;
+    .content {
+        display: flex;
+        flex-direction: column;
+        input {
+            margin: 10px 0;
+            font-size: 14px;
+            line-height: 28px;
+            height: 45px;
+            display: inline-block;
+            padding: 7px 10px;
+            border: 1px solid #ddd;
+            color: #333;
+            vertical-align: middle;
+            width: 100%;
+        }
+        button {
+            height: 45px;
+            padding: 0 20px;
+            background-color: #00a4ff;
+            color: #fff;
+            font-size: 16px;
+            line-height: 45px;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            outline: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            width: 100%;
+            box-sizing: border-box;
+            border: 0;
+            margin: 20px 0;
+        }
+    }
+    .regist {
+        margin: 10px 0;
+        a {
+            cursor: pointer;
+            color: #00a4ff !important;
+            text-decoration: none;
+        }
+    }
+}
