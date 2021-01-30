@@ -6,7 +6,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [ ] 1.[css 响应式布局](https://www.cnblogs.com/HelloJC/p/11158178.html)
 
-# 2.Vue3.0
+# 2.Vue3.0相关问题汇总
+- 1.响应式布局怎么实现？通过代码判断当前浏览器宽度切换css文件，还是使用`sass`某种特性进行媒体查询
 
 ## 2.1 使用 VueCli 创建项目选项
 
