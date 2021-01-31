@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node app.ts"
+  },
   "devDependencies": {
     "@types/node": "^14.14.22",
+    "@types/oauth2-server": "^3.0.12",
     "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "oauth2-server": "^3.1.1"
   }
 }

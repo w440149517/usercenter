@@ -18,5 +18,16 @@ dev
 - 4. [OAuth 2.0 的一个简单解释](http://www.ruanyifeng.com/blog/2019/04/oauth_design.html)
 - 5. [GitHub OAuth 第三方登录示例教程](http://www.ruanyifeng.com/blog/2019/04/github-oauth.html)
 - 6. [在nodejs中实现oauth2.0](https://blog.logrocket.com/implementing-oauth-2-0-in-node-js/)
+
+
 # 3. 任务
 - [ ] 1. 需要两个服务，第一个是授权/认证服务，第二个是测试服务
+- [ ] 2.
+
+# 4.oauth2.0实现库-`oauth2-server`
+- [oauth2-serverAPI文档](https://oauth2-server.readthedocs.io/en/latest/index.html)
+- [基于nodejs的oauth2-server一个demo，演示从授权-认证-刷新token的流程](https://github.com/14gasher/oauth-example)
+
+# 5.nodejs服务
+- 1. [nodejs中不使用框架控制路由](https://www.geeksforgeeks.org/routing-in-node-js/)
+- 2. [csdn可翻译-使用原生nodejs创建https服务-2步走](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTPS-server/)
