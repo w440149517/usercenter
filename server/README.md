@@ -31,3 +31,4 @@ dev
 # 5.nodejs服务
 - 1. [nodejs中不使用框架控制路由](https://www.geeksforgeeks.org/routing-in-node-js/)
 - 2. [csdn可翻译-使用原生nodejs创建https服务-2步走](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTPS-server/)
+- 3. [开启https服务后，chrome浏览器访问`https://localhost:12345`提示不安全警告`NET::ERR_CERT_INVALID`,处理方案]()

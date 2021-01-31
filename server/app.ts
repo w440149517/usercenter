@@ -7,7 +7,7 @@ const PORT: number = 12345;
 const listner: RequestListener = (req: IncomingMessage, res: ServerResponse) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'application/json');
-    res.end('你好')
+    res.end(JSON.stringify({name:'你好'}))
 }
 const server: Server = createServer({...sslOption}, listner);
 
