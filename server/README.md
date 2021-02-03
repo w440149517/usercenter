@@ -20,9 +20,8 @@ dev
 - 6. [在nodejs中实现oauth2.0](https://blog.logrocket.com/implementing-oauth-2-0-in-node-js/)
 
 
-# 3. 任务
-- [ ] 1. 需要两个服务，第一个是授权/认证服务，第二个是测试服务
-- [ ] 2.
+# 3. 进度
+
 
 # 4.oauth2.0实现库-`oauth2-server`
 - [oauth2-serverAPI文档](https://oauth2-server.readthedocs.io/en/latest/index.html)
@@ -30,5 +29,3 @@ dev
 
 # 5.nodejs服务
 - 1. [nodejs中不使用框架控制路由](https://www.geeksforgeeks.org/routing-in-node-js/)
-- 2. [csdn可翻译-使用原生nodejs创建https服务-2步走](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTPS-server/)
-- 3. [开启https服务后，chrome浏览器访问`https://localhost:12345`提示不安全警告`NET::ERR_CERT_INVALID`,处理方案]()

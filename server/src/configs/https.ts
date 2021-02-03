@@ -5,6 +5,6 @@ import fs,{readFileSync} from 'fs';
  * 具体查看：https://stackoverflow.com/questions/7580508/getting-chrome-to-accept-self-signed-localhost-certificate
  */
 export const sslOption = {
-    key: readFileSync('src/configs/key.pem'), // 私钥(必须使用绝对路径，不允许`~`代替)
-    cert: readFileSync('src/configs/cert.pem'), // 证书
+    key: readFileSync('src/configs/localhost.key'), // 私钥(必须使用相对路径，不允许`~`代替)
+    cert: readFileSync('src/configs/localhost.crt') // 证书
 }
