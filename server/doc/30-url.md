@@ -11,6 +11,7 @@ const query = qs.parse(url.query)
 如果你在nodejs 11.0以后的版本上使用,编译器会提示`已过期`(`since v11.0.0 - Use the WHATWG URL API`),并推荐你使用`URL`.
 
 这是因为nodejs的`url.parse`方法采用的传统的`urlObject`,不符合[URL现存标准-WHATWG URL API](https://url.spec.whatwg.org/#goals),因此弃用了。同时
+`url.format()`, `url.resolve()`也弃用了。
 
     `WHATWG`是国际权威的技术标准组织
 
@@ -37,9 +38,12 @@ href         |`✅`  | `✅`
 hash         |`✅`  | `✅`
 origin       | -    | `✅`
 
-可以看出来，只有三个字段不同
+可以看出来，只有三个字段不同，分别是`query`,`path`,`origin`,下图展示区别
 
 ![url模块与URL类对比图](./images/url.png)
+**注：**
+- 上下相同颜色为统一属性对比
+- 例如：`url.search`和`URL.searchParams`是相似的属性，放在一起比对，颜色相同。
 
 打印两个对象的输出
 ```json
@@ -80,5 +84,5 @@ origin       | -    | `✅`
 ```
 
 **参考文献：**
-- 1. [URL API](http://nodejs.cn/api/url.html#url_the_whatwg_url_api)
-- 2. [nodejs的url模块](http://nodejs.cn/api/deprecations.html#deprecations_dep0116_legacy_url_api)
+- 1.[URL API](http://nodejs.cn/api/url.html#url_the_whatwg_url_api)
+- 2.[nodejs的url模块](http://nodejs.cn/api/deprecations.html#deprecations_dep0116_legacy_url_api)
