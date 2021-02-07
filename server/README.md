@@ -1,3 +1,6 @@
+# 说明
+nodejs环境`v15.8.0`
+
 # 1.应用到的库
 dependencies
 - 1.jsonwebtoken

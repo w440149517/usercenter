@@ -1,7 +1,7 @@
 
 nodejs支持创建https服务，如果在`localhost`下需要[自己制作免费的https证书](https://letsencrypt.org/zh-cn/docs/certificates-for-localhost/)
 
-```JavaScript
+```js
 
 import {sslOption} from './src/configs/https'
 import { IncomingMessage, ServerResponse, RequestListener, Server } from 'http';
