@@ -1,6 +1,7 @@
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+- 1.执行`yarn run test`,程序打包并移除本地nginx目录
 
 # 1.响应式布局
 
@@ -30,3 +31,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - 1. 装饰器适用哪些场景？原理是什么？写一个简单的装饰器
 - 2.
+
+# 4.本地测试
+- 1.打包并移动到ngix
+```bash
+zip -r dist.zip dist/ && rm -f /usr/local/nginx/html/dist.zip && mv dist.zip /usr/local/nginx/html && cd /usr/local/nginx/html/ && rm -rf dist/ && unzip dist.zip
+```
