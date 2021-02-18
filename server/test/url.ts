@@ -16,7 +16,7 @@ console.log('url=',url)
 
 console.log('************以下是URL************')
 
-console.log('URL=', url1)
+console.log('URL=', url1.searchParams)
 console.log('querystring=',qs.parse(path))
 
 

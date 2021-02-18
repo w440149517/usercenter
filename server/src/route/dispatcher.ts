@@ -2,6 +2,7 @@ import { Console } from 'console';
 import { IncomingMessage, ServerResponse, RequestListener, Server,ClientRequest } from 'http';
 import Login from './login'
 import Regist from './regist';
+import Authorize from './authorize';
 import {IncomingMessageUtil} from '../utils/IncomingMessage'
 
 interface RouteType {
@@ -10,7 +11,8 @@ interface RouteType {
 const routeMap: RouteType = {
     '/': Login,
     '/login': Login,
-    '/regist': Regist
+    '/regist': Regist,
+    '/authorize': Authorize
 }
 /**
  * 路由分发器

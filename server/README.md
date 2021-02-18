@@ -24,7 +24,9 @@ dev
 
 
 # 3. 进度
-
+- 2021-02-09
+- [ ] 1.要实现model里的3个方法，就要使用数据库或redis。目前先模仿example实现一个对象存储
+  - [ ] 将`example`中的`db`,`token`,`client`分别写成单例模式
 
 # 4.oauth2.0实现库-`oauth2-server`
 - [oauth2-serverAPI文档](https://oauth2-server.readthedocs.io/en/latest/index.html)

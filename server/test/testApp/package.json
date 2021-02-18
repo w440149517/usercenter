@@ -1,0 +1,10 @@
+{
+  "name": "testApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "deploy命令将文件压缩并移动到nginx目录下，再解压",
+  "scripts": {
+    "deploy": "cd .. && rm -f testApp.zip && zip -r testApp.zip testApp/ && mv testApp.zip /usr/local/nginx/html && cd /usr/local/nginx/html/ && rm -rf testApp && unzip testApp.zip && rm -f testApp.zip && cd ~/DCMI/my-github-repo/usercenter/server/test/testApp"
+  }
+}
