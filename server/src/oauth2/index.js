@@ -1,7 +1,7 @@
 import OAuth2Server from 'oauth2-server';
-import { Model} from './model'
+import model,{ } from './model2'
 
 export const oauthServer = new OAuth2Server({
-    model: new Model(),
+    model: model,
     accessTokenLifetime: 60, // 秒
 })
