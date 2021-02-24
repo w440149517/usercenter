@@ -2,6 +2,7 @@ import {IncomingMessage, ServerResponse} from 'http'
 import {oauthServer} from '../oauth2'
 import OAuth2Server, {Request, Response} from 'oauth2-server'
 import { IncomingMessageUtil } from '../utils/IncomingMessage'
+import { OAuthUtil } from '../utils/OAuthUtil'
 // 授权，返回code码
 export default (req: IncomingMessage, res: ServerResponse) => {
     // console.log('headers=',req.headers)
